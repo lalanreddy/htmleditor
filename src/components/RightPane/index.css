@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Corben&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ranchers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Oswald&family=Redressed&family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Caveat:wght@600&family=Dancing+Script:wght@600&family=Josefin+Sans&family=Pacifico&family=Permanent+Marker&family=Satisfy&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Exo+2&family=Fjalla+One&family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Antonio:wght@100&family=Bangers&family=Bebas+Neue&family=Bitter&family=Fira+Sans:ital,wght@1,800&family=Langar&family=Limelight&family=Martel+Sans:wght@300&family=Mukta:wght@300&family=Roboto+Slab:wght@200&family=RocknRoll+One&family=Source+Sans+Pro:wght@300&family=Ubuntu+Mono&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Audiowide&family=Berkshire+Swash&family=Black+Ops+One&family=Concert+One&family=Gloria+Hallelujah&family=Great+Vibes&family=Hanalei+Fill&family=Homemade+Apple&family=Kaushan+Script&family=Merienda&family=Monoton&family=Orbitron&family=Ultra&family=Unlock&family=Yellowtail&display=swap");
+
+/****************************
+        RIGHT PANE
+****************************/
+
+.right__n {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100%;
+    background: #ffffff;
+    box-shadow: 0px 8px 25px rgba(43, 53, 62, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  .right__n::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .right__n::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: #1b4087;
+    cursor: pointer;
+  }
+  
+  .remove__song__button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.3rem 2rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .btn__active {
+    color: black;
+    background-color: transparent;
+    border: 1px solid gray;
+    outline: none;
+  }
+  
+  .btn_inactive {
+    color: rgb(218, 218, 218);
+    opacity: 0.9 !important;
+    pointer-events: none;
+    outline: none;
+  }
+  #watermark__label {
+    color: #0083b0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #0083b0;
+    font-size: 1rem;
+    padding: 0.4rem 2rem;
+    transition: 1s all ease-in;
+  }
+  
+  #watermark__uploaded {
+    transition: 0.4s all ease-in;
+  
+    color: #0083b0;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #0083b0;
+    font-size: 1rem;
+  }
+  
+  #upload__again {
+    color: #0083b0;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  /****************************
+        TEXT BAR
+  ****************************/
+  
+  .textBar {
+    width: 20vw;
+    height: 95%;
+    background: #ffffff;
+    box-shadow: 0px 8px 25px rgba(43, 53, 62, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .textBar select {
+    padding: 5px;
+  }
+  
+  .textProperties label {
+    font-size: 1.4rem;
+  }
+  
+  .textProps {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #font__select {
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+    cursor: pointer;
+    width: 70%;
+  }
+  #font__size__select {
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .font__weigth__row,
+  .font__style__row {
+    margin-top: 1.5rem;
+  }
+  
+  .font__weigth__row select {
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .font__style__row {
+    display: flex;
+    justify-content: space-between;
+  }
